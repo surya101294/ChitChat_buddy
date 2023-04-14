@@ -18,7 +18,7 @@ const PORT = process.env.PORT;
 
 
 
-app.use(authMiddleWare)
+// app.use(authMiddleWare)
 
 // app.use('/auth', AuthRoute);
 app.use('/user', UserRouter)
